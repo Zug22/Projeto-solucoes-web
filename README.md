@@ -55,18 +55,29 @@ O sistema oferece:
 ## Arquitetura do Projeto
 
 /backend
+
 app.py # Entry point Flask
+
 database.py # Conexao Mongo isolada
+
 .env # Variaveis de ambiente
+
 /routes
+
 auth.py
+
 aluno.py
+
 professor.py
 
 /frontend
+
 index.html
+
 /css
+
 /js
+
 /img
 
 run.sh # Script principal de automacao
@@ -82,21 +93,30 @@ run.sh # Script principal de automacao
 ## Instalacao
 
 ### 1. Clone o repositorio
+
 ```bash
 git clone https://github.com/seu-usuario/EduGestor.git
 cd EduGestor
 
+```
 ### 2. Crie o ambiente virtual e instale as dependencias
-
+```bash
 cd backend
+
 python3.12 -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
 
+```
 ### 3. Inicie o MongoDB
-
+```bash
 sudo systemctl enable mongod
+
 sudo systemctl start mongod
+
+```
 
 ### Execucao via run.sh
 
@@ -127,3 +147,39 @@ Se necessario:
 
 chmod +x run.sh
 ./run.sh
+
+## Funções
+
+### Autenticacao:
+
+Login para aluno e professor
+
+JWT armazenado no localStorage
+
+Protecao de rotas no frontend
+
+Painel do Professor
+
+Dashboard com contadores
+
+Cadastro de alunos
+
+Listagem de alunos com turma
+
+Lancamento de notas
+
+Registro de faltas
+
+Painel do Aluno
+
+Dashboard pessoal
+
+Boletim
+
+Historico de faltas
+
+### Estilizacao
+
+Tema claro/escuro (variaveis CSS)
+
+Layout responsivo com sidebar fixa
