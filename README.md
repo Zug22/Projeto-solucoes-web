@@ -12,9 +12,6 @@ O **EduGestor** e um sistema completo de gestao escolar desenvolvido em arquitet
 - [Instalacao](#instalacao)
 - [Execucao-via-runsh](#execucao-via-runsh)
 - [Funcionalidades](#funcionalidades)
-- [Desafios Tecnicos Superados](#desafios-tecnicos-superados)
-- [Credenciais de Teste](#credenciais-de-teste)
-- [Licenca](#licenca)
 
 ---
 
