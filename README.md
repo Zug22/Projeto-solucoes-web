@@ -86,38 +86,38 @@ run.sh # Script principal de automacao
 git clone https://github.com/seu-usuario/EduGestor.git
 cd EduGestor
 
-2. Crie o ambiente virtual e instale as dependencias
+### 2. Crie o ambiente virtual e instale as dependencias
 
 cd backend
 python3.12 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-3. Inicie o MongoDB
+### 3. Inicie o MongoDB
 
 sudo systemctl enable mongod
 sudo systemctl start mongod
 
-Execucao via run.sh
+### Execucao via run.sh
 
 O script run.sh automatiza toda a execucao do projeto.
 O que ele faz automaticamente
 
-    Encerra processos ocupando as portas 5000 e 5502
+    - Encerra processos ocupando as portas 5000 e 5502
 
-    Inicia o servico do MongoDB
+    - Inicia o servico do MongoDB
 
-    Ativa a venv do backend
+    - Ativa a venv do backend
 
-    Inicia o backend Flask
+    - Inicia o backend Flask
 
-    Inicia o servidor HTTP do frontend
+    - Inicia o servidor HTTP do frontend
 
-    Abre o navegador
+    - Abre o navegador
 
-    Encerra todos os processos ao finalizar
+    - Encerra todos os processos ao finalizar
 
-Para executar
+### Para executar
 
 Na raiz do projeto:
 
